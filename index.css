@@ -1,0 +1,48 @@
+body
+{
+    overflow: hidden;
+}
+.view-atas
+{
+    height: 100px;
+  
+
+}
+.view-tengah
+{
+
+   
+}
+.view-bawah
+{
+    height: 100px;
+
+}
+
+@media only screen and (max-width: 360px) {
+    /* For tablets: */
+    .img-view
+    {
+        display: none;
+    }
+    .view-atas
+    {
+        width: 100%;
+    }
+    .jumb h1
+    {
+        font-size: 35px;
+    }
+    
+    .lead
+    {
+        font-size: 15px;
+    }
+    .lab
+    {
+        font-size: 15px;
+    }
+    .col.view-tengah.pt-4.ml-3{
+        margin-left:0 !important;
+    }
+  }
